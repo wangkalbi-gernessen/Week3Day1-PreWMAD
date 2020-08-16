@@ -52,6 +52,26 @@ const calculateTax = function() {
 }
 
 
+// Function Five: should have 0 parameters, meaning it will take 0 arguments. 
+// log to the console the numbers from 1 to 10, one line at a time
+
+const printNumbersToTen = function() {
+
+  //Your code goes here
+
+}
+
+// Function Five: should have 0 parameters, meaning it will take 0 arguments. 
+// log to the console the numbers from 1 to 10, one line at a time
+
+const printNumbersToX = function() {
+
+  //Your code goes here
+
+}
+
+
+
 
 
 
