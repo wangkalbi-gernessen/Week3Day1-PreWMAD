@@ -105,10 +105,11 @@ addStrings("Ottawa", "Canada");
 const fizzBuzz = function() {
 
   //Your code goes here
-  (let i = 1; i <= 100; i++){
+
+  for(let i = 1; i <= 100; i++){
     if(i % 3 === 0 && i % 5 === 0){
       console.log("fizzbuzz");
-    }else if (i % 3 === 0){
+    }else if(i % 3 === 0){
       console.log("fizz");
     }else if (i % 5 === 0){
       console.log("buzz");
@@ -126,13 +127,14 @@ fizzBuzz();
 const paramFizzBuzz = function(x) {
 
   //Your code goes here
-  for(let i =1;i <= 100; i++){
-  }if (i % 3 === 0){
-    console.log("fizz");
-  }else if (i % 5 === 0){
-    console.log("buzz");
-  }else {
-    console.log(i);
+  for(let i = 1; i <= x; i++){
+    if(i % 3 === 0){
+      console.log("fizz");
+    }else if(i % 5 === 0){
+      console.log("buzz");
+    }else {
+      console.log(i);
+    }
   }
 }
 paramFizzBuzz(200);
@@ -141,12 +143,10 @@ paramFizzBuzz(200);
 // Function ten, Bonus: should have 1 parameter, meaning it will take 1 arguments. 
 // log to the console the reverse of the given string
 
-const reverseString= function() {
+const reverseString= function(word) {
 
   //Your code goes here
-
 }
-
 
 //should = 6
 // addTwoNumbers(1, 5) 
