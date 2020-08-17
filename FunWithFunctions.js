@@ -38,11 +38,13 @@ multiplyTwoNumbers(3, 4);
 // Function Three: should have two parameters, meaning it will take two arguments. 
 // Should divide the first argument by the second, and console.log the result.
 
-const divideXByY = function() {
+const divideXByY = function(first, second) {
 
   //Your code goes here
-
+  let result = first / second;
+  console.log(result);
 }
+divideXByY(18, 6);
 
 // Function Four: should have two parameters, meaning it will take two arguments. 
 // The first argument will be the total amount in dollars and cents (ex. 10.25) and the second will be the percentage of tax charged (ex. 5).
