@@ -105,9 +105,19 @@ addStrings("Ottawa", "Canada");
 const fizzBuzz = function() {
 
   //Your code goes here
-
+  (let i = 1; i <= 100; i++){
+    if(i % 3 === 0 && i % 5 === 0){
+      console.log("fizzbuzz");
+    }else if (i % 3 === 0){
+      console.log("fizz");
+    }else if (i % 5 === 0){
+      console.log("buzz");
+    }else {
+      console.log(i);
+    }
+  }
 }
-
+fizzBuzz();
 // Function nine: should have 1 parameter, meaning it will take 1 arguments. 
 // log to the console the numbers from 1, to whatever number is given (x), one line at a time BUT:
 // for every number that is a multiple of 3, print the word "fizz", and for every multiple of 5
@@ -116,9 +126,10 @@ const fizzBuzz = function() {
 const paramFizzBuzz = function() {
 
   //Your code goes here
+  for(let i =1;i <= 100)
 
 }
-
+paramFizzBuzz();
 
 
 // Function ten, Bonus: should have 1 parameter, meaning it will take 1 arguments. 
