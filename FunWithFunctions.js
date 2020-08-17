@@ -19,7 +19,6 @@ const addTwoNumbers = function(first, second) {
   //Your code goes here
   let result = first + second; 
   console.log(result);
-
 }
 addTwoNumbers(2, 3);
 
@@ -31,9 +30,10 @@ addTwoNumbers(2, 3);
 const multiplyTwoNumbers = function(first, second) {
 
   //Your code goes here
-  
+  let result = first * second;
+  console.log(result);
 }
-
+multiplyTwoNumbers(3, 4);
 
 // Function Three: should have two parameters, meaning it will take two arguments. 
 // Should divide the first argument by the second, and console.log the result.
