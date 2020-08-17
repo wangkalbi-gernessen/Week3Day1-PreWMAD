@@ -89,12 +89,13 @@ printNumbersToX(18);
 // Function seven: should have 2 parameters, meaning it will take 2 arguments. 
 // log to the console the two strings given, added together, with a space in between
 
-const addStrings = function() {
+const addStrings = function(first, second) {
 
   //Your code goes here
-
+  let result = `${first} is capital of ${second}.`;
+  console.log(result);
 }
-
+addStrings("Ottawa", "Canada");
 
 // Function eight: should have 0 parameter, meaning it will take 0 arguments. 
 // log to the console the numbers from 1, to 100, one line at a time BUT:
