@@ -143,11 +143,17 @@ paramFizzBuzz(200);
 // Function ten, Bonus: should have 1 parameter, meaning it will take 1 arguments. 
 // log to the console the reverse of the given string
 
+let reversed = "";
 const reverseString= function(word) {
 
   //Your code goes here
+  for (let i = word.length - 1; i >= 0; i--){
+    reversed += word[i];
+  }
+  return reversed;
 }
-
+reverseString("Vancouver");
+console.log(reversed);
 //should = 6
 // addTwoNumbers(1, 5) 
 
