@@ -105,31 +105,49 @@ addStrings("Ottawa", "Canada");
 const fizzBuzz = function() {
 
   //Your code goes here
-
+  for(let i = 1; i <= 100; i++){
+    if(i % 3 === 0 && i % 5 === 0){
+      console.log("fizzbuzz");
+    }else if(i % 3 === 0){
+      console.log("fizz");
+    }else if (i % 5 === 0){
+      console.log("buzz");
+    }else {
+      console.log(i);
+    }
+  }
 }
+fizzBuzz();
+
 
 // Function nine: should have 1 parameter, meaning it will take 1 arguments. 
 // log to the console the numbers from 1, to whatever number is given (x), one line at a time BUT:
 // for every number that is a multiple of 3, print the word "fizz", and for every multiple of 5
 // print the word "buzz"
 
-const paramFizzBuzz = function() {
+const paramFizzBuzz = function(x) {
 
   //Your code goes here
-
+  for(let i = 1; i <= x; i++){
+    if(i % 3 === 0){
+      console.log("fizz");
+    }else if(i % 5 === 0){
+      console.log("buzz");
+    }else {
+      console.log(i);
+    }
+  }
 }
-
+paramFizzBuzz(200);
 
 
 // Function ten, Bonus: should have 1 parameter, meaning it will take 1 arguments. 
 // log to the console the reverse of the given string
 
-const reverseString= function() {
+const reverseString= function(word) {
 
   //Your code goes here
-
 }
-
 
 //should = 6
 // addTwoNumbers(1, 5) 
