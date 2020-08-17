@@ -14,20 +14,24 @@
 // Function one: should have two parameters, meaning it will take two arguments. 
 // Should add two numbers, and console.log the result.
 
-const addTwoNumbers = function() {
+const addTwoNumbers = function(first, second) {
 
   //Your code goes here
+  let result = first + second; 
+  console.log(result);
 
 }
+addTwoNumbers(2, 3);
+
 
 
 // Function Two: should have two parameters, meaning it will take two arguments. 
 // Should multiply the two numbers, and console.log the result.
 
-const multiplyTwoNumbers = function() {
+const multiplyTwoNumbers = function(first, second) {
 
   //Your code goes here
-
+  
 }
 
 
@@ -39,7 +43,6 @@ const divideXByY = function() {
   //Your code goes here
 
 }
-
 
 // Function Four: should have two parameters, meaning it will take two arguments. 
 // The first argument will be the total amount in dollars and cents (ex. 10.25) and the second will be the percentage of tax charged (ex. 5).
