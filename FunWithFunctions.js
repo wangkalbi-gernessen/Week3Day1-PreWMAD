@@ -50,11 +50,14 @@ divideXByY(18, 6);
 // The first argument will be the total amount in dollars and cents (ex. 10.25) and the second will be the percentage of tax charged (ex. 5).
 // calculate the toal price (the amount, + the percentage)
 
-const calculateTax = function() {
+const calculateTax = function(first, second) {
 
   //Your code goes here
+  let result = first * second;
+  console.log(result);
 
 }
+calculateTax(10.25, 1.05);
 
 
 // Function Five: should have 0 parameters, meaning it will take 0 arguments. 
@@ -63,17 +66,25 @@ const calculateTax = function() {
 const printNumbersToTen = function() {
 
   //Your code goes here
+  for(let i = 1; i <= 10; i++){
+    console.log(i);
+  }
 
 }
+printNumbersToTen();
 
 // Function six: should have 1 parameter, meaning it will take 1 arguments. 
 // log to the console the numbers from 1, to whatever number is given as an argument (x), one line at a time
 
-const printNumbersToX = function() {
+const printNumbersToX = function(x) {
 
   //Your code goes here
+  for(let i = 1; i <= x; i++){
+    console.log(i);
+  }
 
 }
+printNumbersToX(18);
 
 // Function seven: should have 2 parameters, meaning it will take 2 arguments. 
 // log to the console the two strings given, added together, with a space in between
